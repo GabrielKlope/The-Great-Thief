@@ -10,7 +10,7 @@ public class Settingsmen2 : MonoBehaviour {
 
 	public void SetVolume (float volume)
 	{
-		Debug.Log (volume);
+		audioMixer.SetFloat("volume", volume);
 	}
 
 }
